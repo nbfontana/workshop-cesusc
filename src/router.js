@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import i18n from '@/i18n'
 
 import CoolMenu from '@/views/CoolMenu.vue'
+import Login from '@/views/login/Login.vue'
 
 import Countdown from '@/views/countdown/Countdown.vue'
 import One from '@/views/countdown/One.vue'
@@ -20,6 +21,11 @@ export default new Router({
       path: '/',
       name: 'coolMenu',
       component: CoolMenu,
+    },
+    {
+      path: '/login',
+      name: 'login',
+      component: Login,
     },
     {
       path: `/${i18n.t('pathCountdown')}`, 

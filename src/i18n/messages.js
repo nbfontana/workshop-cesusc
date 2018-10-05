@@ -16,6 +16,13 @@ export default {
     four: 'Quatro',
     five: 'Cinco',
     wow: 'Achei que era ano novo',
+
+    login: {
+      email: 'Coloque seu e-mail',
+      password: 'Senha',
+      btn: 'Entrar',
+      forgot: 'Esqueceu sua senha?',
+    }
   },
   'en': {
     pathCountdown: 'countdown',
@@ -34,5 +41,12 @@ export default {
     four: 'Four',
     five: 'Five',
     wow: 'Hmmm, it\'s not new year',
+
+    login: {
+      email: 'Enter your email',
+      password: 'Password',
+      btn: 'Login',
+      forgot: 'Lost your password?',
+    }
   }
 }

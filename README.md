@@ -1,14 +1,40 @@
 # workshop-cesusc
 
-### content
+## content
 
 * basic initial config
 * basic components
 * routes and nested routes
 * lifecycles hooks
 * i18n
+* dev environments
 
-### steps
+## Project setup
+```
+npm install
+```
+
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Run your tests
+```
+npm run test
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
+
+## steps
 
 * npm i -d -g @vue/cli
 * vue create workshop-cesusc
@@ -53,29 +79,4 @@ beforeCreate
 beforeMount
 beforeUpdate
 beforeDestroy
-```
-
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
 ```

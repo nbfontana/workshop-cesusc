@@ -1,6 +1,6 @@
 <template>
   <div>
-    <p>CoolMenu</p>
+    <p>coolMenu</p>
     <p>{{ $i18n.t('positiveMessage') }}</p>  
   </div>
 </template>
