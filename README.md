@@ -60,6 +60,7 @@ npm run lint
 * short paths with @
 * .env / .env.development / .env.staging
 * .env.js file
+* copy some login stuff from the internet and be creative, or not
 
 ## Lifecycle Hooks
 
