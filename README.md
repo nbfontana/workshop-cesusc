@@ -32,6 +32,8 @@
 * adds i18n message in coolMenu
 * i18n routes
 * short paths with @
+* .env / .env.development / .env.staging
+* .env.js file
 
 ## Lifecycle Hooks
 

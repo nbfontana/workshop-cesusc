@@ -4,6 +4,9 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
+    "serve:prod": "vue-cli-service serve --mode production",
+    "serve:staging": "vue-cli-service serve --mode staging",
+    "serve:batatinha": "vue-cli-service serve --mode batatinha",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
