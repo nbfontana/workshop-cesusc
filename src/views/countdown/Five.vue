@@ -1,5 +1,5 @@
 <template>
-  <CoolText text="Five"></CoolText>
+  <CoolText :text="$i18n.t('five')"></CoolText>
 </template>
 
 <script>
@@ -11,7 +11,8 @@ export default {
     CoolText,
   },
   mounted() {
-    setTimeout(() => this.$router.push('/countdown/four'), 1000);
+    const path = `/${this.$i18n.t('pathCountdown')}/${this.$i18n.t('pathFour')}`;
+    setTimeout(() => this.$router.push(path), 1000);
   },
 }
 </script>

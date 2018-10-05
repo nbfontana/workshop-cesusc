@@ -6,6 +6,7 @@
 * basic components
 * routes and nested routes
 * lifecycles hooks
+* i18n
 
 ### steps
 
@@ -25,6 +26,10 @@
 * adds children to countdown and test
 * show lifecycle hooks in /one
 * adds countdown effect using lifecycle
+* i18n - npm i -d --save vue-i18n
+* adds /i18n index.js and messages.js
+* adds i18n message in coolMenu
+* i18n routes
 
 ## Lifecycle Hooks
 

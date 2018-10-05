@@ -1,6 +1,6 @@
 <template>
   <div>
-    <CoolText text="Countdown"></CoolText>
+    <CoolText :text="$i18n.t('countdown')"></CoolText>
     <router-view/>
   </div>
 </template>

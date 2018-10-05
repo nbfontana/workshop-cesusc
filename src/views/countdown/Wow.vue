@@ -1,5 +1,5 @@
 <template>
-  <CoolText text="Hmmm, it's not new year"></CoolText>
+  <CoolText  :text="$i18n.t('wow')"></CoolText>
 </template>
 
 <script>

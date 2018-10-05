@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
+import i18n from '@/i18n'
 
 import CoolMenu from './views/CoolMenu.vue'
 
@@ -21,31 +22,31 @@ export default new Router({
       component: CoolMenu,
     },
     {
-      path: '/countdown', 
+      path: `/${i18n.t('pathCountdown')}`, 
       component: Countdown,
       children: [
         {
-          path: 'one',
+          path: i18n.t('pathOne'), 
           component: One
         },
         {
-          path: 'two',
+          path: i18n.t('pathTwo'), 
           component: Two
         },
         {
-          path: 'three',
+          path: i18n.t('pathThree'), 
           component: Three
         },
         {
-          path: 'four',
+          path: i18n.t('pathFour'), 
           component: Four
         },
         {
-          path: 'five',
+          path: i18n.t('pathFive'), 
           component: Five
         },
         {
-          path: 'wow',
+          path: i18n.t('pathWow'), 
           component: Wow
         },
         {
