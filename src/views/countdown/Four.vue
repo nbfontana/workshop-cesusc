@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import CoolText from '../../components/CoolText';
+import CoolText from '@/components/CoolText';
 
 export default {
   name: 'four',

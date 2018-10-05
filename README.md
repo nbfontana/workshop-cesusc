@@ -20,6 +20,7 @@
 * remove helloworld component
 * create /countdown 6 components
 * create coolmenu
+* create coolText component?
 * adds router.js with vue-router
 * adds <router-view/> to App.vue
 * test and explain routes
@@ -30,6 +31,7 @@
 * adds /i18n index.js and messages.js
 * adds i18n message in coolMenu
 * i18n routes
+* short paths with @
 
 ## Lifecycle Hooks
 
